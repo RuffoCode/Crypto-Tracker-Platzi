@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
     priceText:{
         color: "#fff"
     }
+    
 });
 
 
