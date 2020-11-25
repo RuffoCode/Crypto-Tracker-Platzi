@@ -2,20 +2,30 @@
 Introduction to React Native - Platzi: cryptoTracker
 
 
-# Create project
+## Create project
+```
 npx react-native init cryptoTracker
+```
 
-# Run Android
+## Run Android
+```
 npx react-native run-android
+```
 
-# Install navigation
+## Install navigation
+```
 npm install @react-navigation/native @react-navigation/stack
 npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+```
 
-# Install tabs navigation
+## Install tabs navigation
+```
 npm install @react-navigation/bottom-tabs
+```
 
-# Install storage
+## Install storage
+```
 npm install @react-native-community/async-storage
-o
+or
 npm install @react-native-async-storage/async-storage
+```
