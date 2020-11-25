@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     textInputIOS: {
         margin: 8,
         borderRadius: 8
-    },
+    }
 });
 
 export default CoinsSearch;
