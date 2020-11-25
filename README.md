@@ -2,7 +2,7 @@
 Introduction to React Native - Platzi: cryptoTracker
 
 
-# create project
+# Create project
 npx react-native init cryptoTracker
 
 # Run Android
@@ -14,3 +14,8 @@ npm install react-native-reanimated react-native-gesture-handler react-native-sc
 
 # Install tabs navigation
 npm install @react-navigation/bottom-tabs
+
+# Install storage
+npm install @react-native-community/async-storage
+o
+npm install @react-native-async-storage/async-storage
