@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet, Image, SectionList, FlatList, Pressable, Alert } from 'react-native';
 import Colors from "cryptoTracker/src/res/colors";
 import Http from 'cryptoTracker/src/libs/http';
-import CoinMarketItem from './CoinMarketItem';
+import FavoriteMarketItem from './FavoriteMarketItem';
 import Storage from 'cryptoTracker/src/libs/storage';
 
-class CoinDetailScreen extends Component {
+class FavoriteDetailScreen extends Component {
     state = {
         coin: {},
         markets: [],
@@ -23,9 +23,7 @@ class CoinDetailScreen extends Component {
     addFavorite = async () => {
         const coin = JSON.stringify(this.state.coin);
         const key = `favorite-${this.state.coin.id}`;
-
         const stored = await Storage.instance.store(key, coin);
-
         if (stored) {
             this.setState({ isFavorite: true });
         }
@@ -148,7 +146,7 @@ class CoinDetailScreen extends Component {
                     horizontal={true}
                     data={markets}
                     renderItem={({ item }) =>
-                        <CoinMarketItem item={item} />
+                        <FavoriteMarketItem item={item} />
                     }
                 />
 
@@ -225,7 +223,6 @@ const styles = StyleSheet.create({
     btnFavoriteRemove: {
         backgroundColor: Colors.carmine
     }
-
 });
 
-export default CoinDetailScreen;
+export default FavoriteDetailScreen;
