@@ -31,6 +31,6 @@ npm install @react-native-async-storage/async-storage
 ```
 
 ## General
-- [CrytoApi](https://www.coinlore.com/cryptocurrency-data-api)
+- [CryptoApi](https://www.coinlore.com/cryptocurrency-data-api)
 - [URL icon test: https://c1.coinlore.com/img/25x25/bitcoin.png](https://c1.coinlore.com/img/25x25/bitcoin.png)
 
