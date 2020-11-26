@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
+import Colors from "cryptoTracker/src/res/colors";
 
 const FavoritesEmptyState = () => (
     <View style={styles.container}>
@@ -14,7 +15,7 @@ const styles = StyleSheet.create({
         justifyContent: "center"
     },
     text:{
-        color: "#fff",
+        color: Colors.white,
         fontWeight: "bold",
         fontSize: 18,
         alignSelf:"center"

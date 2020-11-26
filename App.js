@@ -15,7 +15,9 @@ const App = () => {
         tabBarOptions={{
           tintColor: "#fefefe",
           style: {
-            backgroundColor: Colors.blackPearl
+            backgroundColor: Colors.blackPearl,
+            paddingBottom: 3,
+            paddingTop:8
           }
         }}
       >
