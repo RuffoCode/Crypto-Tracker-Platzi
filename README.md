@@ -37,5 +37,5 @@ npm install @react-native-async-storage/async-storage
 ## Testing .apk
 Path .apk
 ```
-[youtpath]\cryptoTracker\android\app\build\outputs\apk\debug
+[yourpath]\cryptoTracker\android\app\build\outputs\apk\debug
 ```
